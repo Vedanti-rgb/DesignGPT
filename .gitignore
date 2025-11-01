@@ -1,0 +1,16 @@
+# Virtual Environment (where all Python packages are installed)
+.venv/
+venv/
+
+# Python Cache & Bytecode
+__pycache__/
+*.pyc
+
+# Ollama Models (These are very large and should only live locally)
+ollama/
+
+# Security & Configuration (NEVER upload secrets!)
+.env
+.env.example
+.vscode/
+*.sublime-*
